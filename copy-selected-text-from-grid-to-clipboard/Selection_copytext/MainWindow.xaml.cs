@@ -44,8 +44,7 @@ namespace Selection_copytext
                     grid.Model[9, 5].CellValue = "R" + grid.Model[9, 5].RowIndex + "C" + grid.Model[9, 5].ColumnIndex;
                 }
             }
-            grid.Model.Options.CopyPasteOption |= CopyPaste.CopyText;
-            grid.Model.Options.CopyPasteOption |= CopyPaste.PasteText;
+            grid.Model.Options.CopyPasteOption = CopyPaste.CopyText | CopyPaste.PasteText;
         }
     }
 }

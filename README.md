@@ -1,6 +1,6 @@
-# WPF GridControl clipboard operations
+# How to Copy Selected Text from WPF GridControl to Clipboard (notepad or any other external sources)?
 
-This repository contains the samples which demonstrates various clipboard operation customization in [WPF GridControl](https://help.syncfusion.com/wpf/gridcontrol/overview).
+This repository contains the samples which demonstrates various clipboard operation customization in [WPF GridControl](https://www.syncfusion.com/wpf-controls/excel-like-grid).
 
 `GridControl` provides support for clipboard operations. You can cut or copy and paste data to or from grid to other external sources, like notepad, excel, etc.
 
@@ -11,4 +11,4 @@ gridControl.Model.Options.ActivateCurrentCellBehavior = GridCellActivateAction.D
 grid.Model.Options.CopyPasteOption = CopyPaste.CopyText | CopyPaste.PasteText;
 ```
 
-![WPF GridControl clipboard operations](https://www.syncfusion.com/uploads/user/kb/wpf/wpf-51280/wpf-51280_img1.png)
+![Copying text from GridControl to Notepad](CopyTextFromGridControlToNotepad.png)
